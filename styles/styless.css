@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-one{
+    display: flex;
+    background-color: #1e172f;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pages-header{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    width: 120%;
+    align-items: center;
+    
+}
+.pages-one{
+    color: #7F778C;
+    text-decoration: none;
+}
+.pages-one :hover{
+    pointer-events: fill;
+    color: white;
+}
+.buttom-download {
+    padding: 15px 25px;
+    background: linear-gradient(to right, #824EBD, #087FD9);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+.header-two{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+.back-ground{
+    background: url(/asset/hojasFondo.jpg)no-repeat;
+    width: 50%; 
+    height: 80vh;
+    background-size: 160%;
+    background-position: center;;
+}
+.phone{
+    width: 30%;
+    margin: 130px 0px 0px 160px;
+}
+.publicidad{
+    background-color: #2E2550;
+    width: 60%;
+    height: 80vh;
+}
+.lap-top{
+    width: 50%;
+}
+h1{
+    font-size: 70px;
+    color: white;
+    
+}
+.p-header-pub{
+    color: white;
+    font-size: 23px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.button-right{
+    background-color: #2E2554;
+    border-color: white;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-left{
+    padding: 15px 40px;
+    font-size: 20px; 
+    background-color: white;
+    color: #F0137A;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.buttom-header{
+    padding: 8px;
+    max-width: 81%;
+    border-radius: 5px;
+    border: 2px solid #50486F; 
+}
+.text-pub{
+    max-width: 51%;
+    margin: 16% 0% 0% 45%;
+}
